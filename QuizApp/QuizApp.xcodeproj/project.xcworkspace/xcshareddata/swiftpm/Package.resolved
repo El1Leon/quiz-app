@@ -1,0 +1,15 @@
+{
+  "originHash" : "aad494613aa88086a6f07578c6d10af1cb105a3fcc8642cec0539a7850d3c702",
+  "pins" : [
+    {
+      "identity" : "shared",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/El1Leon/Shared.git",
+      "state" : {
+        "branch" : "main",
+        "revision" : "18c19b426526a837b0d75f15f96d5d4afbb1d185"
+      }
+    }
+  ],
+  "version" : 3
+}

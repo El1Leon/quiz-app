@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		64476D6F3009F42E0015C32A /* Shared in Frameworks */ = {isa = PBXBuildFile; productRef = 64476D6E3009F42E0015C32A /* Shared */; };
+		64476D943009FC8E0015C32A /* Shared in Frameworks */ = {isa = PBXBuildFile; productRef = 64476D933009FC8E0015C32A /* Shared */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,7 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				64476D6F3009F42E0015C32A /* Shared in Frameworks */,
+				64476D943009FC8E0015C32A /* Shared in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -125,7 +125,7 @@
 			);
 			name = QuizApp;
 			packageProductDependencies = (
-				64476D6E3009F42E0015C32A /* Shared */,
+				64476D933009FC8E0015C32A /* Shared */,
 			);
 			productName = QuizApp;
 			productReference = 64476D403009E48E0015C32A /* QuizApp.app */;
@@ -210,7 +210,7 @@
 			mainGroup = 64476D373009E48E0015C32A;
 			minimizedProjectReferenceProxies = 1;
 			packageReferences = (
-				64476D6C3009E6D00015C32A /* XCLocalSwiftPackageReference "../../Shared" */,
+				64476D923009FBF70015C32A /* XCRemoteSwiftPackageReference "Shared" */,
 			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 64476D413009E48E0015C32A /* Products */;
@@ -633,17 +633,21 @@
 		};
 /* End XCConfigurationList section */
 
-/* Begin XCLocalSwiftPackageReference section */
-		64476D6C3009E6D00015C32A /* XCLocalSwiftPackageReference "../../Shared" */ = {
-			isa = XCLocalSwiftPackageReference;
-			relativePath = ../../Shared;
+/* Begin XCRemoteSwiftPackageReference section */
+		64476D923009FBF70015C32A /* XCRemoteSwiftPackageReference "Shared" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/El1Leon/Shared.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
 		};
-/* End XCLocalSwiftPackageReference section */
+/* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		64476D6E3009F42E0015C32A /* Shared */ = {
+		64476D933009FC8E0015C32A /* Shared */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 64476D6C3009E6D00015C32A /* XCLocalSwiftPackageReference "../../Shared" */;
+			package = 64476D923009FBF70015C32A /* XCRemoteSwiftPackageReference "Shared" */;
 			productName = Shared;
 		};
 /* End XCSwiftPackageProductDependency section */
